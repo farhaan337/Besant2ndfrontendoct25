@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welocome to HTML World</title>
+
+    <link rel="icon" type="images/png" href="Images/fav1.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--
+    favicons
+    <h1>This h1 heading</h1>
+    <h2>This h1 heading</h2>
+    <h3>This h1 heading</h3>
+    <h4>This h1 heading</h4>
+    <h5>This h1 heading</h5>
+
+    <hr />
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda in
+      consequatur et ipsa, expedita iure laudantium suscipit dolorem omnis atque
+      totam eos, fuga debitis ab adipisci maxime? Earum, veniam enim.
+    </p>
+
+    <pre>
+      Lorem, ipsum dolor sit amet consectetur 
+      adipisicing elit. Assumenda in
+      consequatur et ipsa, expedita iure 
+      laudantium suscipit dolorem omnis atque
+      totam eos, fuga debitis ab adipisci 
+      maxime? Earum, veniam enim.
+    </pre>
+    
+    <a
+      href="https://en.wikipedia.org/wiki/Dog"
+      target="_blank"
+      title="this page goes dog page"
+      >click me</a
+    >
+    <br> <br> <br> 
+    <a href="lyrics.html">song lyrics</a>
+     
+     <img src="./Images/img1.jpg" alt="this is dog" width="200" height="200">
+
+      <audio src=""> </audio> 
+      <video src="/Videos/nature.mp4" width="500" 
+      
+      controls autoplay mute loop>Video</video> 
+
+     <p>This is normal text</p>
+     <p>This is <b>normal</b> text</p>
+     <p>This is <i>italic</i> text</p>
+     <p>This is <u>underlined</u> text</p>
+     <p>This is <del>deleted</del> text</p>
+     <p>This is <big>big</big> text</p>
+     <p>This is <small>small</small> text</p>
+     <p>This is <sub>suscript</sub> text</p>
+     <p>This is <sup>superscript</sup> text</p>
+     <p>This is <mark style="background-color: lightgreen;" >normal</mark> text</p>
+
+    Group Together HTML 
+
+     span - inline conatiner to group elements for styling elements
+
+    div - block conatiner to group elements for styling elements 
+  
+
+
+  
+ <h1><span style="background-color: red;" >This span title</span> </h1>
+ <h1><div style="background-color: red;" >This is div title</div></h1>
+
+ <p> <span style="background-color: red;" >this is span sentence</span> </p>
+ <p> <div style="background-color: red;" >this is div sentence</div> </p>
+ 
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum sit odit, itaque eum totam architecto fugit aliquid iste neque earum vitae, perferendis dolorum quo! Fuga numquam aliquam inventore. Minus quis fugiat <span style="background-color: red;" >distinctio quia magnam maxime aspernatur iusto necessitatibus quisquam possimus. Quibusdam ipsum voluptatem odio consequatur delectus nisi soluta ullam!</span></p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum sit odit, itaque eum totam architecto fugit aliquid iste neque earum vitae, perferendis dolorum quo! Fuga numquam aliquam inventore. Minus quis fugiat <div style="background-color: red;" >distinctio quia magnam maxime aspernatur iusto necessitatibus quisquam possimus. Quibusdam ipsum voluptatem odio consequatur delectus nisi soluta ullam!</div></p>  
+      
+      
+      unorder list 
+      
+
+     
+
+    <ul>
+      <h1>Groceries</h1>
+      <li>Milk</li>
+      <li>Bread</li>
+      <li>Egg</li>
+      <li>Sugar</li>
+      <ul>
+        <h2>Tea making</h2>
+        <li>tea powder</li>
+        <li>milk cream</li>
+        <li>ginger</li>
+      </ul>
+    </ul> 
+
+     <ol>
+      <h1>Today todo list</h1>
+      <li>brush up</li>
+      <li>take dog out</li>
+      <li>make breakfast</li>
+      <li>go to office</li>
+     </ol>
+
+   
+    <h1>Office Hours</h1>
+    <table border="1" style="background-color: black;" >
+      <tr align="center" style="color: antiquewhite;" >
+        <th width="100">Monday</th>
+        <th width="100">Tuesday</th>
+        <th width="100">Wednesday</th>
+        <th width="100">Thursday</th>
+        <th width="100">Friday</th>
+        <th width="100">Saturday</th>
+        <th width="100">Sunday</th>
+      </tr>
+      <tr align="center" style="color: antiquewhite;" >
+        <td>10-6</td>
+        <td>10-6</td>
+        <td>10-6</td>
+        <td>10-6</td>
+        <td>10-6</td>
+        <td>10-1</td>
+        <td>Closed</td>
+      </tr>
+    </table>
+      
+  <a href="/lyrics.html"> <button style="background-color: blanchedalmond; border-radius: 5px;"   >Click Me</button></a>
+
+
+    <button onclick="doSomething()" style="background-color: blanchedalmond; border-radius: 5px;"   >Click Me</button>
+
+    <p id="greeting" >Hello</p>
+
+     <script>
+      function doSomething() {
+         document.getElementById("greeting").innerHTML = "Goodbye the text is changed";
+      }
+     </script>
+    
+
+    <form action="index.db" method="post" enctype="multipart/form-data">
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        id="username"
+        placeholder="Ganesh Kumar"
+        minlength="6"
+        maxlength="10"
+        required
+      />
+      <br />
+      <br />
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        id="password"
+        minlength="6"
+        maxlength="10"
+        required
+      />
+      <br />
+      <br />
+      <label for="email">Email: </label>
+      <input type="email" id="email" placeholder="siva123@gmail.com" required />
+      <br />
+      <br />
+      <label for="phone">Phone No: </label>
+      <input
+        type="tel"
+        id="phone"
+        placeholder="91-90874-15977"
+        pattern="[0-9]{2}-[0-9]{5}-[0-9]{5}"
+        required
+      />
+      <br />
+      <br />
+      <label for="bday">Birthdate: </label>
+      <input type="date" id="bday" />
+      <br />
+      <br />
+      <label for="quantity">Quantity: </label>
+      <input type="number" id="quantity" min="0" max="10" />
+      <br />
+      <br />
+      <label for="title">Title: </label>
+      <label for="Mr.">Mr: </label>
+      <input type="radio" value="Mr." id="Mr." name="title" />
+      <label for="Ms.">Ms: </label>
+      <input type="radio" value="Ms." id="Ms." name="title" />
+      <label for="Dr.">Dr: </label>
+      <input type="radio" value="Dr." id=".Dr" name="title" />
+      <br />
+      <br />
+      <label for="payment">Payment: </label>
+      <select name="" id="payment">
+        <option value="mastercard">Mastercard</option>
+        <option value="visa">Visa</option>
+        <option value="rupay">Rupay</option>
+      </select>
+      <br /><br />
+      <label for="subscribe">Subscribe: </label>
+      <input type="checkbox" id="subscribe" />
+      <br /><br />
+      <label for="comment">Text Area: </label>
+      <textarea id="comment" rows="2" cols="20"></textarea>
+      <br /><br />
+      <label for="fike">Resume Upload: </label>
+      <input type="file" id="file" accept="image/png, image/jpeg" />
+      <br /><br />
+      <input type="submit" />
+      <input type="reset" />
+     
+      
+
+       <header style="background-color: lightblue;" >
+              <h1>This is Besant Practice Website </h1>
+              <a href="">Home</a>
+              <a href="">About</a>
+              <a href="">Courses</a>
+              <a href="">Contact Us</a>
+              <hr>
+       </header>
+       <main>
+          <h4>Checkout the courses to get a job</h4>
+          <img src="/Images/img1.jpg" alt="profile pic" width="200">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error fugiat consequuntur commodi, adipisci consequatur suscipit vero officia vel reprehenderit. Rem labore sapiente voluptatum accusantium qui voluptatem provident, accusamus possimus maxime porro quibusdam doloribus, magni veritatis consequuntur iste perferendis eveniet illum repudiandae aut? Temporibus, incidunt quo laboriosam iste explicabo ratione molestias!</p>
+       </main>
+       <footer style="background-color: lightblue;"  >
+        <hr>
+        author: Besant Students
+        &copy: copyright reserved <br>
+        <small><a href="mailto:dineshjr107@gmail.com">dineshjr107@gmail.com</a></small>
+       </footer>
+
+    </form>   
+
+    <h1>Besant Student</h1>
+
+    <div id="box1" ></div> 
+
+    <div class="box" id="box1" >Box 1</div>
+    <div class="box" id="box2" >Box 2</div> 
+
+   <img src="Images/img1.jpg" alt=""  id="img1" height="150px">
+
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ratione adipisci amet porro officiis dignissimos fuga sapiente id! Ipsum nostrum facere eum nihil omnis laudantium earum dicta quaerat fuga alias!</p>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ratione adipisci amet porro officiis dignissimos fuga sapiente id! Ipsum nostrum facere eum nihil omnis laudantium earum dicta quaerat fuga alias!</p>
+   <img src="Images/puppy-eyes-puppy.gif" alt=""  id="img2" height="150px">
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ratione adipisci amet porro officiis dignissimos fuga sapiente id! Ipsum nostrum facere eum nihil omnis laudantium earum dicta quaerat fuga alias!</p>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ratione adipisci amet porro officiis dignissimos fuga sapiente id! Ipsum nostrum facere eum nihil omnis laudantium earum dicta quaerat fuga alias!</p>
+
+   <div id="div1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, neque dolores a assumenda, quis ullam quaerat distinctio officia cum commodi sed eius hic dignissimos debitis, blanditiis officiis quidem quibusdam. Aperiam molestias animi nihil error nemo corrupti ab architecto enim ullam earum necessitatibus, fugiat eius ratione consequatur et totam hic, mollitia eum officia labore voluptates. Molestias ab, nemo iste quaerat alias nisi perspiciatis mollitia, officia repellat amet fugiat. Veniam facere placeat, nobis aperiam, ullam totam dolorum suscipit quis ad similique expedita sequi culpa rem iste omnis commodi optio modi unde officia tempora autem fugit, repudiandae animi. Soluta quibusdam vitae perferendis a!</p>
+   </div> 
+
+   <div id="div1">div</div>
+   <span id="span1" >span</span>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi ipsam inventore omnis, nihil quisquam! Excepturi repellendus laboriosam autem impedit nihil laudantium, voluptatem aliquam error, quaerat vel assumenda, architecto ullam?  
+ 
+
+     <div class="box">
+      <h2>This is #1</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eius odit nobis animi, nihil exercitationem nostrum ullam in, fugiat, natus soluta? Maiores, sint et? Aut asperiores magnam impedit officiis quod.</p>
+     </div>
+     <div class="box">
+      <h2>This is #2</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eius odit nobis animi, nihil exercitationem nostrum ullam in, fugiat, natus soluta? Maiores, sint et? Aut asperiores magnam impedit officiis quod.</p>
+     </div> 
+
+    <div class="container">
+      <div class="box">
+        <h2>This is #1</h2>
+      </div>
+      <div class="box">
+        <h2>This is #2</h2>
+      </div>
+    </div> 
+    
+    Positions 
+
+         relative - postioned reletive to where it normally
+         fixed -  postioned reletive to the viewport
+         absolute - postioned reletive to  nearest ancestor
+         sticky -  postioned based on scroll postion
+         static - default for an element
+    
+  
+
+    <div id="box1"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore rerum quasi at voluptatem? Reprehenderit in sequi, sit accusamus sunt labore. Officiis vero, saepe fugiat dolor ratione consectetur reiciendis similique.</p>  
+
+    <div id="box1">
+      <div id="box2"></div>
+    </div>
+    <div id="box1"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolore rerum quasi at voluptatem? Reprehenderit in sequi, sit accusamus sunt labore. Officiis vero, saepe fugiat dolor ratione consectetur reiciendis similique.</p> 
+    
+    combinators - explains the relationship between listed selectors 
+        
+      | =descendant
+    >= child
+    ~ = general sibling
+    + = adjacent sibling
+    a
+      <div id="container">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+          <p>This is #3</p>
+        </div>
+      </div>
+      <p>This is #4</p>
+      <p>This is #5</p>   
+      
+      
+
+      Psudeo Classes - it is the keyword where we will add to the selectors
+      
+      -->
+
+
+  
+  </body> 
+</html>

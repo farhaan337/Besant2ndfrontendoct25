@@ -1,0 +1,215 @@
+ /*body {
+    margin: 0px;
+}
+
+h1 {
+   
+    text-shadow: 2px 2px 4px red, -2px -2px 4px lightblue;
+    
+}
+
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    box-shadow: 3px 3px 5px;
+} 
+
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    height: 250px;
+    width: 250px;
+margin: 50px;
+}
+
+
+#box1 {
+    background-color: lightgreen;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    /* margin-left: auto; */
+/* margin-right: auto; */
+/* margin: auto;
+
+   
+}
+
+#box2 {
+    background-color: lightskyblue;
+} 
+
+
+body{
+    border: 3px solid;
+    display: flow-root;
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+    
+}
+#img2 {
+    float: right;
+    margin-right: 10px;
+    
+} 
+
+overflow - property that sets desird behavior when content does not fit in the parent element or box (overflows) 
+
+
+overflow: visilbe
+overflow: hidden
+overflow: scroll
+overflow: auto 
+
+
+#div1 {
+    border: 2px solid;
+    height: 75px;
+    /* overflow: visible; 
+     overflow: hidden;
+     overflow: scroll;
+     overflow: auto; 
+     overflow: clip;
+     overflow-clip-margin: 10px; 
+
+} 
+     
+display - proprty specfies if/how an element is displayed
+
+block-level - start on a new line, takke the width avialable 
+(h1, div, p, form, header, footer) 
+
+inline - do not start a new line width is limted to what the content (span, a, img)
+
+
+
+#div1 {
+    background-color: lawngreen;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+#span1 {
+    background-color: lightsalmon;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+} 
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightgreen;
+    height: 100vh; 
+}
+
+.box {
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 30px;
+    /* box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+   
+    /* min-height: 50%;
+    /* max-height: 50%; */
+
+    /* max-width: 10%; */
+    /* min-width: 30%; 
+    
+}  
+  
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lawngreen;
+    /* position: relative;
+    top: 100px;
+    left: 100px; */
+    /* position: fixed;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    position: sticky;
+    top: 0px;
+    left: 100px;
+ 
+}
+
+#box2 {
+   width: 100px;
+   height: 100px;
+   background-color: crimson;
+   position: absolute;
+   top: 50px;
+   left: 50px;
+
+}
+#box3 {
+   width: 50px;
+   height: 50px;
+   background-color: blue;
+   position: absolute;
+   top: 25px;
+   left: 25px;
+
+}  */
+
+#container {
+    border: 2px solid;
+}
+
+
+/* #container p{
+    background-color: yellow;
+} 
+#container > p{
+    background-color: yellow;
+}
+
+#container ~ p{
+    background-color: yellow;
+}
+#container + p{
+    background-color: yellow;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
