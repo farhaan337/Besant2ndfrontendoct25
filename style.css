@@ -323,4 +323,94 @@ p::selection {
 
 .dropdown a:hover {
     background-color: lightgreen;
+}  
+
+h1{
+    text-align: center;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: lightgreen;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+}
+
+.navbar a{
+    color: darkblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: lightseagreen;
+}
+
+.navbar li{
+    float: left;
 }  */
+
+
+.container {
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-direction: column; 
+    flex-direction: column-reverse; 
+    justify-content: flex-end; 
+    justify-content: center; 
+    justify-content: space-between; 
+    justify-content: space-evenly; */
+    height: 90vh;
+    border: 10px solid black;
+    /* align-items: flex-start;
+    align-items: flex-end;  
+    align-items: center;*/
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 3em;
+    row-gap: 4em;
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 5em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#box1 {
+    background-color: lightgreen;
+}
+#box2 {
+    background-color: lightskyblue;
+}
+#box3 {
+    background-color: lightpink;
+}
+#box4 {
+    background-color: lightseagreen;
+}
+#box5 {
+    background-color: lightsalmon;
+}
+#box6 {
+    background-color: lightgreen;
+}
+#box7 {
+    background-color: lightskyblue;
+}
+#box8 {
+    background-color: lightpink;
+}
+
+
